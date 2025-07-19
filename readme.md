@@ -22,7 +22,7 @@ O sistema simula o gerenciamento de um cinema com múltiplas salas, permitindo o
     </td>
     <td align="center">
       <a href="https://github.com/LuisEduardoS23">
-        <img src="https://github.com/LuisEduardoS23.png" width="100px;" alt="Luis Eduardo"/><br />
+        <img src="https://github.com/LuisEduardoS23.png" width="100px;" alt="Luis Eduardo Silva Soares"/><br />
         <sub><b>Luis Eduardo</b></sub>
       </a>
     </td>
