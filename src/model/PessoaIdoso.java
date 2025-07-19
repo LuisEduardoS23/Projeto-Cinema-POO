@@ -1,9 +1,10 @@
-package src;
-public class PessoaNormal extends Pessoa{
-    private String categoria = "Normal";
-    private double desconto = 0.0;
+package src.model;
 
-    public PessoaNormal(String nome, int idade, String senha) {
+public class PessoaIdoso extends Pessoa{
+    private String categoria = "Idoso";
+    private double desconto = 1;
+
+    public PessoaIdoso(String nome, int idade, String senha) {
         super(nome, idade, senha);
     }
 
@@ -19,5 +20,4 @@ public class PessoaNormal extends Pessoa{
         double preco = 25 * (1-desconto);
         return preco;
     }
-
 }

@@ -1,5 +1,15 @@
-package src;
+package src.controller;
 import java.util.Scanner;
+
+import src.model.Administrador;
+import src.model.Filme;
+import src.model.Pessoa;
+import src.model.PessoaEstudante;
+import src.model.PessoaIdoso;
+import src.model.PessoaNormal;
+import src.model.PessoaProfessor;
+import src.model.Sessao;
+import src.util.Contador;
 
 public class Sistema {
 

@@ -1,10 +1,11 @@
-package src;
-public class PessoaIdoso extends Pessoa{
-    private String categoria = "Idoso";
-    private double desconto = 1;
+package src.model;
 
-    public PessoaIdoso(String nome, int idade, String senha) {
-        super(nome, idade, senha);
+public class PessoaProfessor extends Pessoa{
+    private String categoria = "Professor";
+    private double desconto = 0.3;
+
+    public PessoaProfessor(String nome, int idade, String senha) {
+        super(nome,idade, senha);
     }
 
     public double getDesconto() {

@@ -1,4 +1,7 @@
-package src;
+package src.model;
+
+import src.util.Contador;
+
 public class Filme {
     private String titulo;
     private int duracao;

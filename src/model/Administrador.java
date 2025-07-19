@@ -1,5 +1,7 @@
-package src;
+package src.model;
 import java.util.Scanner;
+
+import src.util.Contador;
 
 public class Administrador {
     private String nome;
