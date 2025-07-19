@@ -31,9 +31,9 @@ O sistema simula o gerenciamento de um cinema com múltiplas salas, permitindo o
 
 ## 🎯 Funcionalidades Principais
 
-- 📽️ Cadastro de filmes e atribuição a salas
-- 🪑 Visualização da ocupação dos assentos por sala
-- 🎟️ Compra de ingressos com seleção de sala, fileira e assento
+- 📽️ Cadastro de filmes e atribuição a salas  
+- 🪑 Visualização da ocupação dos assentos por sala  
+- 🎟️ Compra de ingressos com seleção de sala, fileira e assento  
 - 💸 Aplicação automática de descontos por categoria:
   - Normal: 0%
   - Estudante: 50%
@@ -44,32 +44,59 @@ O sistema simula o gerenciamento de um cinema com múltiplas salas, permitindo o
 
 ## 🧱 Estrutura de Classes
 
-- `Pessoa` (abstrata): nome, idade, senha
-- `Filme`: título, duração, gênero
-- `Sala`: número, matriz de assentos, filme em exibição
-- `Assento`: fileira (A-T), número (1-10), status
-- `Ingresso`: pessoa, sala, assento, preço final
-- `Cinema`: lista de salas e lógica de venda de ingressos
+- `Pessoa` (abstrata): nome, idade, senha  
+- `Filme`: título, duração, gênero  
+- `Sala`: número, matriz de assentos, filme em exibição  
+- `Assento`: fileira (A-T), número (1-10), status  
+- `Ingresso`: pessoa, sala, assento, preço final  
+- `Cinema`: lista de salas e lógica de venda de ingressos  
 
 ---
+
+## 📂 Estrutura de Pastas
+
+A seguir, a organização de diretórios e arquivos Java no projeto:
+
+PROJETO-FINAL-POO
+│
+├── src
+│ ├── controller
+│ │ └── Sistema.java
+│ │
+│ ├── model
+│ │ ├── Administrador.java
+│ │ ├── Filme.java
+│ │ ├── Pessoa.java
+│ │ ├── PessoaEstudante.java
+│ │ ├── PessoaIdoso.java
+│ │ ├── PessoaNormal.java
+│ │ ├── PessoaProfessor.java
+│ │ └── Sessao.java
+│ │
+│ ├── util
+│ │ └── Contador.java
+│ │
+│ └── Main.java
+│
+└── readme.md
 
 ---
 
 ## ⚙️ Tecnologias Utilizadas
 
-- Java 17+
-- IDE: Visual Studio Code
-- Terminal de Console (para interação textual)
+- Java 17+  
+- IDE: Visual Studio Code e IntelliJ  s
+- Terminal de Console (para interação textual)  
 
 ---
 
 ## 💡 Conceitos Aplicados
 
-- ✅ Encapsulamento
-- ✅ Herança
-- ✅ Polimorfismo
-- ✅ Composição
-- ✅ Uso de Arrays e controle manual de objetos
+- ✅ Encapsulamento  
+- ✅ Herança  
+- ✅ Polimorfismo  
+- ✅ Composição  
+- ✅ Uso de Arrays e controle manual de objetos  
 
 ---
 
@@ -79,6 +106,5 @@ O sistema simula o gerenciamento de um cinema com múltiplas salas, permitindo o
 > O usuário escolhe entre as opções do menu para navegar pelas funcionalidades como cliente ou administrador.
 
 ---
-
 
 © 2025 – Projeto desenvolvido para fins acadêmicos no IFMA – Campus Caxias.
