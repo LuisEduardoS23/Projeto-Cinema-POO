@@ -6,8 +6,7 @@ Este projeto foi desenvolvido como atividade final da disciplina **Programação
 
 O sistema simula o gerenciamento de um cinema com múltiplas salas, permitindo o controle de sessões, assentos e venda de ingressos com aplicação de descontos conforme a categoria do cliente. O projeto foi desenvolvido em **Java**, utilizando os principais conceitos de **POO**: encapsulamento, herança, polimorfismo e composição.
 
-Para conferir o PDF da avaliação clique [aqui](src/Desafio/avaliacao.pdf)
-
+**🔍 Para conferir o PDF da avaliação clique:** [📄 Veja o PDF aqui](src/Desafio/avaliacao.pdf) 
 
 ---
 
