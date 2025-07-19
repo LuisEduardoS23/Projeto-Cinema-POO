@@ -57,28 +57,26 @@ O sistema simula o gerenciamento de um cinema com múltiplas salas, permitindo o
 
 A seguir, a organização de diretórios e arquivos Java no projeto:
 
-PROJETO-FINAL-POO
-│
-├── src
-│ ├── controller
-│ │ └── Sistema.java
-│ │
-│ ├── model
-│ │ ├── Administrador.java
-│ │ ├── Filme.java
-│ │ ├── Pessoa.java
-│ │ ├── PessoaEstudante.java
-│ │ ├── PessoaIdoso.java
-│ │ ├── PessoaNormal.java
-│ │ ├── PessoaProfessor.java
-│ │ └── Sessao.java
-│ │
-│ ├── util
-│ │ └── Contador.java
-│ │
-│ └── Main.java
-│
+```
+PROJETO-FINAL-POO/
+├── src/
+│   ├── controller/
+│   │   └── Sistema.java
+│   ├── model/
+│   │   ├── Administrador.java
+│   │   ├── Filme.java
+│   │   ├── Pessoa.java
+│   │   ├── PessoaEstudante.java
+│   │   ├── PessoaIdoso.java
+│   │   ├── PessoaNormal.java
+│   │   ├── PessoaProfessor.java
+│   │   └── Sessao.java
+│   ├── util/
+│   │   └── Contador.java
+│   └── Main.java
 └── readme.md
+
+```
 
 ---
 
@@ -102,8 +100,7 @@ PROJETO-FINAL-POO
 
 ## 📸 Execução
 
-> A interface do sistema é feita por linha de comando (console).  
-> O usuário escolhe entre as opções do menu para navegar pelas funcionalidades como cliente ou administrador.
+A interface do sistema é feita por linha de comando (console).O usuário escolhe entre as opções do menu para navegar pelas funcionalidades como cliente ou administrador.
 
 ---
 
