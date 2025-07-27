@@ -142,7 +142,6 @@ public class Administrador {
                         System.out.println("Nenhuma sessão no sistema...\n\n");
                     }
                     else {
-                        for (int i = 0; i < contadorSessoes.valor; i++) {
                             Sessao.verSessoes(sessoes, contadorSessoes);
                         }
                         System.out.println("Escolha a sessão acima que deseja remover: ");
@@ -155,7 +154,7 @@ public class Administrador {
                         contadorSessoes.valor--;
                         break;
                     }
-                }
+
 
                 case 0:{
                     break;

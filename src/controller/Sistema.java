@@ -150,7 +150,7 @@ public class Sistema {
                         System.out.println("Digite o seu nome: ");
                         String nomeAdm = input.nextLine();
 
-                        System.out.println("Digite a sua senha: ");
+                        System.out.println("Defina a sua senha: ");
                         String senhaAdm = input.nextLine();
 
                         admins[contadorAdmins.valor] = new Administrador(nomeAdm, senhaAdm);
